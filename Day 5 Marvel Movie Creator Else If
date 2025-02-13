@@ -1,0 +1,28 @@
+print("Marvel Movie Creator")
+print()
+print("Please answer the question with a y or n for yes or no")
+print()
+hulk_smash = input("Are you often 'Angry' and like smashing things?:")
+if hulk_smash == "y":
+  print("You are the Hulk!")
+else:
+  print("You are not the Hulk.")
+print()
+green_lantern = input("Do you like Ryan Reynolds and the color Green?")
+if green_lantern == "y":
+  print("You are the Green Lantern!")
+else:
+  print("You are not the Green Lantern.")
+print()
+thor = input("Do you like hammers and thunder?:")
+if thor == "y":
+  print("You are Thor!")
+else:
+  print("You are not Thor.")
+print()
+iron_man = input("Do you like technology and Black Sabbath?:")
+if iron_man == "y":
+  print("You are Iron Man!")
+else:
+  print("You are not Iron Man.")
+
