@@ -1,0 +1,25 @@
+print("Are you a superfan of 'One Piece' or are you a fake fan?")
+print()
+print("Answer these questions to find out.")
+print()
+favorite = input("Who is your favorite character?")
+if favorite == "Luffy":
+  devilfruit = input("What is his devil fruit?")
+  if devilfruit == ("Gum Gum Fruit"):
+    print("Thats right, you are a true fan!")
+  else:
+    print("Wrong, you are a fake fan")
+elif favorite == "Zoro":
+  swords = input("How many swords does he have?")
+  if swords == "3":
+    print("Thats right, you are a true fan!")
+  else:
+    print("Wrong, you are a fake fan")
+elif favorite == "Nami":
+  ocean = input("What ocan is she from?")
+  if ocean == "East Blue":
+    print("Thats right, you are a true fan!")
+  else:
+    print("Wrong, you are a fake fan")
+else:
+  print("Wrong, you are a fake fan")
